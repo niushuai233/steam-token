@@ -1,0 +1,14 @@
+{
+    "shared_secret": "sJHkjdx1gluzJlwB6L7LklYSg=",
+    "serial_number": "9343661234462106438",
+    "revocation_code": "Z14513",
+    "uri": "otpauth:\/\/totp\/Steam:zhangsan123?secret=W123Wfds1123fdsH123JI&issuer=Steam",
+    "server_time": "1613782664",
+    "account_name": "zhangsan123",
+    "token_gid": "25e5x55f001449ee",
+    "identity_secret": "HY8\/eDpZYcrasdvfewtkyweEfs=",
+    "secret_1": "Qywu12fY9L7Bt\/JVaOmQ123wr8=",
+    "status": null,
+    "steamguard_scheme": 2,
+    "steamid": "7612341512311041"
+}
