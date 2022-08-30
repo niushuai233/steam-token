@@ -3,6 +3,7 @@ package cc.niushuai.project.steam.token;
 import cc.niushuai.project.steam.token.ins.SteamTwoFactorToken;
 import cc.niushuai.project.steam.token.util.GlobalUtil;
 import cn.hutool.core.date.DateUtil;
+import cn.hutool.core.util.ArrayUtil;
 
 /**
  * Steam 令牌计算
@@ -14,8 +15,8 @@ public class SteamTokenApplication {
 
     public static void main(String[] args) {
 
+        System.out.println("接收命令行参数: " + ArrayUtil.toString(args));
         GlobalUtil.init(args);
-        System.out.println("初始化命令行参数成功" + args);
 
         String steamGuardCode = SteamTwoFactorToken.generateSteamGuardCode(GlobalUtil.getShared_secret());
         System.out.println("当前时间: " + DateUtil.now());
